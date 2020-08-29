@@ -1,24 +1,5 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 動画ファイル格納場所
+1. app/assets/
+2. public/assets/
+上記2つのどちらかに格納する。推奨されているのは1番の方。新しく導入されたアセットパイプラインによって、`Sprockets`というミドルウェアが自然に圧縮してくれるらしいから。  
+今回は上手くいかなかったので2番の方に格納している。←コンフィグの書き方に不備があるかもしれない。
